@@ -1,0 +1,28 @@
+{
+    // Editor
+    "editor.rulers": [
+        88
+    ],
+    "editor.wordWrapColumn": 88,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "files.associations": {
+        "./requirements/*.txt": "pip-requirements"
+    },
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    // Python environment
+    "python.defaultInterpreterPath": ".venv/bin/python",
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.terminal.activateEnvironment": true,
+    // Formatter
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    // extensions
+    "autoDocstring.guessTypes": true,
+    "autoDocstring.docstringFormat": "google",
+    "autoDocstring.generateDocstringOnEnter": false
+}

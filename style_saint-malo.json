@@ -1,0 +1,64 @@
+{
+    "address": "Saint-Malo, France",
+    "aoi_bounds": [
+        -2.039887410629887,
+        48.64034323022677,
+        -2.012194478387811,
+        48.65869275460434
+    ],
+    "draw_settings": {
+        "urban": {
+            "cmap": [
+                "#433633",
+                "#FF5E5B",
+                "#FF5E5B"
+            ],
+            "ec": "#2F3737",
+            "lw": 0.5,
+            "zorder": 5
+        },
+        "water": {
+            "fc": "#a8e1e6",
+            "ec": "#2F3737",
+            "lw": 1,
+            "zorder": 3
+        },
+        "grassland": {
+            "fc": "#8BB174",
+            "ec": "#2F3737",
+            "hatch": "ooo...",
+            "hatch_c": "#80B918",
+            "lw": 1,
+            "zorder": 1
+        },
+        "woodland": {
+            "fc": "#64B96A",
+            "ec": "#2F3737",
+            "lw": 1,
+            "zorder": 2
+        },
+        "streets": {
+            "fc": "#2F3737",
+            "zorder": 4
+        },
+        "other": {
+            "fc": "#F2F4CB",
+            "ec": "#2F3737",
+            "lw": 1,
+            "zorder": 3
+        }
+    },
+    "name_on": true,
+    "name": "Saint-Malo, France",
+    "font_size": 27,
+    "font_color": "#2F3737",
+    "text_x": -33,
+    "text_y": -47,
+    "text_rotation": 0,
+    "shape": "rectangle",
+    "contour_width": 1,
+    "contour_color": "#499898",
+    "bg_shape": "rectangle",
+    "bg_buffer": 0,
+    "bg_color": "#EDEFDA"
+}

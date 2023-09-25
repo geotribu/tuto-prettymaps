@@ -1,0 +1,64 @@
+{
+  "address": "Saint-Malo, France",
+  "aoi_bounds": [
+    -2.040973415191239,
+    48.639623639799105,
+    -2.0111084883376105,
+    48.65941234255926
+  ],
+  "draw_settings": {
+    "urban": {
+      "cmap": [
+        "#FFC857",
+        "#E9724C",
+        "#C5283D"
+      ],
+      "ec": "#2F3737",
+      "lw": 0.5,
+      "zorder": 4
+    },
+    "water": {
+      "fc": "#a1e3ff",
+      "ec": "#85c9e6",
+      "hatch": "ooo...",
+      "hatch_c": "#2F3737",
+      "lw": 1,
+      "zorder": 1
+    },
+    "grassland": {
+      "fc": "#5d8551",
+      "ec": "#2F3737",
+      "lw": 1,
+      "zorder": 2
+    },
+    "woodland": {
+      "fc": "#64B96A",
+      "ec": "#2F3737",
+      "lw": 1,
+      "zorder": 2
+    },
+    "streets": {
+      "fc": "#757d7d",
+      "zorder": 3
+    },
+    "other": {
+      "fc": "#ecebba",
+      "ec": "#2F3737",
+      "lw": 1,
+      "zorder": 3
+    }
+  },
+  "name_on": true,
+  "name": "Bisous de Saint-Malo, Geotribu",
+  "font_size": 20,
+  "font_color": "#276457",
+  "text_x": -27,
+  "text_y": 22,
+  "text_rotation": -40,
+  "shape": "circle",
+  "contour_width": 1,
+  "contour_color": "#2F3537",
+  "bg_shape": "circle",
+  "bg_buffer": 2,
+  "bg_color": "#F2F4CB"
+}
