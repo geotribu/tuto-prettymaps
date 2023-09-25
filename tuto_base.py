@@ -19,8 +19,6 @@ presets = (
 
 # -- Main
 adresse = "Callao, Lima Metropolitan Area, Constitutional Province of Callao, Peru"
-adresse = "Avenue Louis Martin, Intra-Muros, Saint-Malo, Ille-et-Vilaine, Brittany, Metropolitan France, 35400, France"
-adresse = "7, Rue de Dinan, Intra-Muros, Saint-Malo, Ille-et-Vilaine, Brittany, Metropolitan France, 35400, France"
 
 for p in presets:
     print(f"Carte de '{adresse}' avec le préréglage '{p}'")

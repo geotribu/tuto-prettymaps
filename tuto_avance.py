@@ -1,10 +1,13 @@
 import prettymaps
 
-query = "13 rue de l'Université, Paris, France"
+adresse = "Saint-Malo, France"
 
 
 plot: prettymaps.draw.Plot = prettymaps.plot(
-    query=query,
+    query=adresse,
+    title="Geotribu",
+    # credit="Geotribu",
+    save_as="SaintMalo_advanced.png",
     circle=True,
     radius=1100,
     layers={
@@ -22,12 +25,12 @@ plot: prettymaps.draw.Plot = prettymaps.plot(
         },
         "streets": {
             "width": {
-                "motorway": 5,
-                "trunk": 5,
-                "primary": 4.5,
-                "secondary": 4,
-                "tertiary": 3.5,
-                "residential": 3,
+                "motorway": 2.5,
+                "trunk": 2,
+                "primary": 2,
+                "secondary": 2,
+                "tertiary": 2,
+                "residential": 2,
             }
         },
         "building": {
@@ -36,51 +39,48 @@ plot: prettymaps.draw.Plot = prettymaps.plot(
     },
     style={
         "background": {
-            "fc": "#F2F4CB",
+            "fc": "#DCE0DC",
             "ec": "#dadbc1",
             "hatch": "ooo...",
         },
         "perimeter": {
-            "fc": "#F2F4CB",
+            "fc": "#DCE0DC",
             "ec": "#dadbc1",
             "lw": 0,
             "hatch": "ooo...",
         },
         "green": {
-            "fc": "#D0F1BF",
+            "fc": "#2B2F77",
             "ec": "#2F3737",
             "lw": 1,
         },
         "forest": {
-            "fc": "#64B96A",
+            "fc": "#2B2F77",
             "ec": "#2F3737",
             "lw": 1,
         },
         "water": {
-            "fc": "#a1e3ff",
-            "ec": "#2F3737",
+            "fc": "#C2C8CA",
+            "ec": "#C2C8CA",
             "hatch": "ooo...",
-            "hatch_c": "#85c9e6",
+            "hatch_c": "#C2C8CA",
             "lw": 1,
         },
         "parking": {
-            "fc": "#F2F4CB",
+            "fc": "#E6E9E5",
             "ec": "#2F3737",
             "lw": 1,
         },
         "streets": {
-            "fc": "#2F3737",
+            "fc": "#1C1F31",
             "ec": "#475657",
             "alpha": 1,
             "lw": 0,
         },
         "building": {
-            "palette": ["#FFC857", "#E9724C", "#C5283D"],
-            "ec": "#2F3737",
+            "palette": ["#EAEAE5", "#EAEAE5", "#EAEAE6"],
+            "ec": "#DBDBDA",
             "lw": 0.5,
         },
     },
 )
-
-
-plot.fig.savefig("sciencespo.png")
