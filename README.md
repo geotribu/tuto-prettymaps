@@ -1,16 +1,8 @@
 # Tuto prettymaps
 
-Scripts et ressources liés au tutoriel sur la prise en main de prettymaps
+Scripts et ressources liés au tutoriel sur la prise en main de :
 
-## Démarrage rapide
+- [prettymaps](https://github.com/marceloprates/prettymaps) : voir [le README dédié](./prettymaps/README.md).
+- de son dérivé (_fork_) orienté application web [prettymapp](https://github.com/chrieke/prettymapp/) : voir [le README dédié](./prettymapp/README.md).
 
-> Commandes réalisées sous ubuntu 22.04. Adapter à son système.
-
-Créer un environnement virtuel et y installer les dépendances :
-
-```sh
-python3 -m venv .venv
-. .venv/bin/activate
-python -m pip install -U pip setuptools wheel
-python -m pip install -U -r requirements-prettymaps.txt
-```
+Il n'est pas recommandé d'installer les deux bibliothèques dans le même environnement.
