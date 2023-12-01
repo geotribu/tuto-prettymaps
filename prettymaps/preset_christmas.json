@@ -63,12 +63,16 @@
     },
     "style": {
         "perimeter": {
-            "fill": false,
+            "fill": true,
             "lw": 0,
+            "hatch": "o....",
             "zorder": 0
         },
         "background": {
             "fc": "#FFFFFF",
+            "hatch": "....*",
+            "hatch_c": "#C0C0C0",
+            "lw": 1,
             "zorder": -1
         },
         "green": {
@@ -111,14 +115,15 @@
         "building": {
             "palette": [
                 "#FF0000",
-                "#FFFFFF"
+                "#ea4630",
+                "#f8b229"
             ],
             "ec": "#2F3737",
             "lw": 0.5,
             "zorder": 5
         }
     },
-    "circle": null,
-    "radius": 800,
+    "circle": true,
+    "radius": 1000,
     "dilate": 100
 }
